@@ -3,13 +3,13 @@ begin-data-test
 
 @http
 get /
-get /todos
-post /todos
-post /todos/delete
+get /greeting
+get /greetings
+post /greeting
+post /greeting/delete
 
 @tables
 data
   scopeID *String
   dataID **String
   ttl TTL
-  
